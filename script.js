@@ -1,4 +1,5 @@
 
+
 // Mild Challenges 
 
 /// The three siblings get their allowance once a week.
@@ -16,19 +17,42 @@ let shoes = 89.78;
 
 
 // 1. If divided evenly, how much would each sibling get for the week?
+const siblingallowance = 43;
+
+console.log( `1. Each siblings' allowance: $${siblingallowance}`); 
 
 // 2. How many games can Jordan buy with their cut?
-
+const JordanGames = "2 games";
+console.log(`2. Jordan can only buy: ${JordanGames}`)
 // 3. The cost of games just went up by a dollar and shoes are on sale at 50% (half) off. Change the variables to their new prices.
+game = 15.99;
+game += 1;
+shoes = 89.79;
+shoes /= 2;
+
+console.log(`3a. Game price is now: $${game}`);
+console.log(`3b. Shoes 50% OFF now! $${shoes}`);
 
 // 4. Quinn and Ricardo are twins. If they put their money together, how many on sale shoes can they buy in a month (4 weeks)?
+let Quinn = 43;
+let Ricardo = 43;
+let sum = Quinn + Ricardo;
 
-// 5. How many more games can they buy if they put their money together compared to if they had bought games on their own?
+console.log(`Both Ricardo and Quinn make $${sum} in a weeks total!`);
+let newshoe = 44.895;
+let monthsum = sum * 4;
+console.log(`In a month, that is $${monthsum}!`)
+
+let totalShoes = monthsum / newshoe;
+console.log(`They can both buy ${totalShoes}. Rounded, that is 7 shoes.`)
+// 5. How many more games can they buy if they put their money together compared to if they had bought games on their own in a week?
 
 // 6. Print out the three siblings' names. "The three siblings are __, __, and ___."
-
+console.log(`The three siblings are ${sibling1}, ${sibling2}, ${sibling3}.`)
 // 7. Use console.log() and a built-in method to count how many characters are in Ricardo's name.
-
+let name = "Ricardo Montoya De La Rosa Ramirez";
+let characcount = name.length;
+console.log(`There are ${characcount} characters in Ricardos' name.`);
 // 8. Use console.log() and a built-in method to print out the string "RICARDO MONTOYA DE LA ROSA RAMIREZ"
 
 // 9. Use console.log() and a built-in method to print out the string "ricardo montoya de la rosa ramirez"
@@ -72,11 +96,11 @@ const addNums = (x, y) => {
 
 /// b. Prints a special message if name is "Beyonce"
 const isBeyonce = (name) => {
-    if( ) { 
-        return "Welcome Queen!";
-    } else {
-        return `Sorry {name}, you're not Beyonce`;
-    }
+    //if() { 
+    //    return "Welcome Queen!";
+   // } else {
+   //     return `Sorry {name}, you're not Beyonce`;
+   // }
 }
 // Test "Beyonce" and other names to ensure it works
 
@@ -85,11 +109,11 @@ const isBeyonce = (name) => {
 /// c. If the number is even, return the number divided by 2, otherwise, return the number
 /// For example reduceEvens(10) => 5 -- reduceEvens(11) => 11
 const reduceEvens = (x) => {
-    if( ){
+   // if( ){
 
-    } else {
-        return x;
-    }
+    //} else {
+   //     return x;
+ //   }
 }
 //Write your own function calls
 
